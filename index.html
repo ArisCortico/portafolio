@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================stilos css======================-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--stylos para la paleta de colores-->
+    <link rel="stylesheet" href="./css/colores/color-1.css" class="alternador-estilo" title="color-1" disabled>
+    <link rel="stylesheet" href="./css/colores/color-2.css" class="alternador-estilo" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/colores/color-3.css" class="alternador-estilo" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/colores/color-4.css" class="alternador-estilo" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/colores/color-5.css" class="alternador-estilo" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/paleta.css">
+    <!--=================Fin stilos css===================-->
+    <title>Document</title>
+</head>
+
+<body>
+    <!--=================== Contenedor main =======================-->
+    <div class="main-container">
+        <!--=================== Aside start =======================-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>A</span>ris</a>
+            </div>
+            <div class="nav-alternador">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#Home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#aserca"><i class="fa fa-user"></i>Acerca de</a></li>
+                <li><a href="#Servicios"><i class="fa fa-list"></i>Servicios</a></li>
+                <li><a href="#Portafolio"><i class="fa fa-briefcase"></i>Portafolio</a></li>
+                <li><a href="#Contacto"><i class="fa fa-comments"></i>Contacto</a></li>
+            </ul>
+        </div>
+        <!--=================== Aside fin =======================-->
+        <!--=================== main content start =======================-->
+        <div class="main-content">
+            <!--=================== home seccion  =======================-->
+            <section class="home active section " id="Home">
+                <div class="container">
+                    <div class="filas">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hola, mi nombre es <span class="name">Aris Cortico</span></h3>
+                            <h3 class="mi-profecion">Soy <span class="typing">Web Designer</span></h3>
+                            <p>Soy un desarrollador web apasionado con habilidades tanto en diseño como en desarrollo de
+                                software. Mi enfoque es crear experiencias digitales excepcionales que sean visualmente
+                                atractivas, intuitivas y funcionales...</p>
+                            <a href="#" id="openPdfButton" class="btn ">Descargar CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./img/ft1.JPG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=================== home seccion fin  =======================-->
+            <!--=================== aserca de seccion  star=======================-->
+            <section class="about  section " id="aserca">
+                <div class="container">
+                    <div class="filas">
+                        <div class="section-title padd-15">
+                            <h2>Sobre mi</h2>
+                        </div>
+                    </div>
+                    <div class="filas">
+                        <div class="about-content padd-15">
+                            <div class="filas">
+                                <div class="about-text padd-15">
+                                    <h3>Soy Aris Cortico y <span>web developer</span></h3>
+                                    <p>Soy un apasionado desarrollador web con habilidades en diseño y desarrollo de
+                                        software. Mi objetivo es crear experiencias digitales excepcionales, visualmente
+                                        atractivas, intuitivas y funcionales. Con experiencia en gestión de proyectos,
+                                        desde la conceptualización hasta la implementación, garantizo que cada aspecto
+                                        esté cuidadosamente diseñado y desarrollado para satisfacer las necesidades del
+                                        cliente. Además, también tengo experiencia como desarrollador de software y
+                                        diseñador.</p>
+                                </div>
+                            </div>
+                            <div class="filas">
+                                <div class="personal-info padd-15">
+                                    <div class="filas">
+                                        <div class="info-item padd-15">
+                                            <p>cumpleaños: <span>09 oct 2005</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Edad: <span>18</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website: <span>No disponible</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                           <a href="mailto:ariscortico09@gmail.com"><p>Email: <span>ariscortico09@gmail.com</span></p></a> 
+                                        </div>
+                                        <div class="info-item padd-15">
+                                           <a href="tel:+18099623698"> <p> Tel: <span>+1 (809) 962-3698</span></p></a>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p> Ciudad: <span>Santo Domingo</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="filas">
+                                        <div class="boton padd-15">
+
+                                            <a href="#Contacto" data-section-index="1"
+                                                class="btn hire-me">Contactame</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills-container">
+                                    <h3>Lenguajes de Programación</h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item">
+                                            <h5>VB-Visual Basic</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/programming-language-vbnet.256x168.png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>C#</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/c-sharp-c.228x256.png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>PHP</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/php.png" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <h3>Tecnologías Web</h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item">
+                                            <h5>HTML</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/html-5 (1).png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/css-3.png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>JS</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/secuencia-de-comandos-de-java (1).png" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <h3>Bases de Datos</h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item">
+                                            <h5>SQL</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/sql .png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>MySQL</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/mysql-original-wordmark.256x133.png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>SQL Server</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/servidor-sql (1).png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>PostgreSQL</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/postgresql-original-wordmark.256x254.png" alt="">
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>Microsoft Access</h5>
+                                            <img class="skill-icon" src="./img/iconos-tecno/acces.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="filas">
+                                <div class="educacion padd-15">
+                                    <h3 class="title">Educacion</h3>
+                                    <div class="filas">
+                                        <div class="linea-tiempo padd-15">
+                                            <div class="Ltiempo shadow-dark">
+                                                <!--objetos de la linea de tiempo-->
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"> </div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2022
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Analisis y diseño de sistemas
+                                                        informaticos.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2022
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Diseño web y recursos multimedia.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"> </div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2022
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Diseño y desarrollo de base de datos.
+                                                    </h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2022
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Ofimatica.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Administracion de base de datos.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Analisis y diseño de reportes.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <!--Fin de los objetos de la linea de tiempo-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experiencia padd-15">
+                                    <h3 class="title ">...</h3>
+                                    <div class="filas">
+                                        <div class="linea-tiempo padd-15">
+                                            <div class="Ltiempo shadow-dark">
+                                                <!--objetos de la linea de tiempo-->
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Desarrollo de aplicaciones y sistemas
+                                                        Informacion.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Formacion y orientacion laboral.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Desarrollo e implementacion de soluciones
+                                                        web y multimedia.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Implementacion y mantenimiento de
+                                                        aplicaciones y sistemas informaticos.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Emprendimiento.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+                                                <div class="Ltiempo-item">
+                                                    <div class="punto_circular"></div>
+                                                    <h3 class="fecha-cronologíca">
+                                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                                    </h3>
+                                                    <h4 class="tululo_Ltiempo">Formacion en centro de trabajo.</h4>
+                                                    <p class="txt_Ltiempo">Politecnico Nuestra señora de la esperanza.
+                                                    </p>
+
+
+                                                </div>
+
+
+
+
+                                                <!--Fin de los objetos de la linea de tiempo-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!--=================== aserca de seccion  end =======================-->
+            <!--=================== servicios content star =======================-->
+            <section class="servicios section " id="Servicios">
+                <div class="container">
+                    <div class="filas">
+                        <div class="section-title padd-15">
+                            <h2>Servicios</h2>
+                        </div>
+                    </div>
+                    <div class="filas">
+                        <!--complementos de servicios star-->
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Front-End Developer</h4>
+                            </div>
+                        </div>
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Software Developer</h4>
+
+                            </div>
+                        </div>
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Software Designer</h4>
+
+                            </div>
+                        </div>
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Graphic Designer</h4>
+
+                            </div>
+                        </div>
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Developer </h4>
+
+                            </div>
+                        </div>
+                        <div class="servicios_item padd-15">
+                            <div class="servicios_item_Inferior">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>web designer</h4>
+
+                            </div>
+                        </div>
+                        <!--complementos de servicios end-->
+                    </div>
+                </div>
+            </section>
+            <!--=================== servicios content fin =======================-->
+            <!--=================== Portafolio content star =======================-->
+            <section class="portafolio section " id="Portafolio">
+                <div class="container">
+                    <div class="filas">
+                        <div class="section-title padd-15">
+                            <h2>Portafolio</h2>
+                        </div>
+                    </div>
+                    <div class="filas">
+                        <div class="portafolio_heading padd-15">
+                            <h2>Mis Protectos :</h2>
+                        </div>
+                    </div>
+                    <div class="filas">
+                        <!--Protectos realisados - portafilio start-->
+
+                        <!--mensaje de no disponible-->
+
+                        <div id="myElement" class="message oculto ">
+                            <div class="encabesado">
+                                <p>Aviso</p>
+                                <button class="btn-close" onclick="cerrarMensaje()">X</button>
+                            </div>
+                            <div class="contenido-mensaje">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p> Articulo no disponible</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="tab-container">
+                            <button class="tablinks active" onclick="openTab(event, 'tab1')">Web</button>
+                            <button class="tablinks" onclick="openTab(event, 'tab2')">Software</button>
+                            <!--proyectos web-->
+                            <div id="tab1" class="tabcontent" style="display: block;">
+                                <div class="flexx">
+
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/periodico.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/periodico.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Periodico Escolar | PONSE</h3>
+                                            <div class="btn_resp">
+                                                <a href="http://ponse.atwebpages.com/index.php" target="_blank">
+                                                    <button class="btn_portafolio">ver mas</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/TiendaOnline.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/TiendaOnline.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Tienda Online | DEVBOOM</h3>
+                                            <div class="btn_resp">
+                                                <button class="btn_portafolio removeClassButton">ver mas</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/tienda.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/tienda.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>landing page | Tienda de comida</h3>
+                                            <div class="btn_resp">
+                                                <a href="https://github.com/ArisCortico/Layaut-tienda" target="_blank">
+                                                    <button class="btn_portafolio">Repositorio</button>
+                                                </a>
+
+                                                <a href="https://ariscortico.github.io/Layaut-tienda/" target="_blank">
+                                                    <button class="btn_portafolio" target="_blank">ver mas</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/cine.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/cine.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>landing page | cine</h3>
+                                            <div class="btn_resp">
+                                                <a href="https://github.com/ArisCortico/Layaut-Cine" target="_blank">
+                                                    <button class="btn_portafolio">Repositorio</button>
+                                                </a>
+
+                                                <a href="https://ariscortico.github.io/Layaut-Cine/" target="_blank">
+                                                    <button class="btn_portafolio" target="_blank">ver mas</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/maquetacion1.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/maquetacion1.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Maquetacion Web</h3>
+                                            <div class="btn_resp">
+                                                <a href="https://github.com/ArisCortico/maquetaci-n-web-1"
+                                                    target="_blank">
+                                                    <button class="btn_portafolio">Repositorio</button>
+                                                </a>
+
+                                                <a href="https://ariscortico.github.io/maquetaci-n-web-1/"
+                                                    target="_blank">
+                                                    <button class="btn_portafolio" target="_blank">ver mas</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/web/juego.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/web/juego.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Juego de Adivinanzas</h3>
+                                            <div class="btn_resp">
+                                                <a href="https://github.com/ArisCortico/Juego-adivinanzas"
+                                                    target="_blank">
+                                                    <button class="btn_portafolio">Repositorio</button>
+                                                </a>
+
+                                                <a href="https://ariscortico.github.io/Juego-adivinanzas/"
+                                                    target="_blank">
+                                                    <button class="btn_portafolio" target="_blank">ver mas</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--software-->
+                            <div id="tab2" class="tabcontent">
+                                <div class="flexx">
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/software/abarrotes.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/software/abarrotes.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Software de Abarrotes</h3>
+                                            <div class="btn_resp">
+                                                <button class="btn_portafolio removeClassButton">ver mas</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="portafolio_proyectos padd-15">
+                                        <div class="portafolio_proyectos_inferior shadow-dark">
+                                            <div class="portafolio_img">
+                                                <img class="img_portafolio fondo" src="./img/software/reportes.png"
+                                                    alt="proyecto1">
+                                                <img class="img_portafolio portada" src="./img/software/reportes.png"
+                                                    alt="proyecto1">
+                                            </div>
+                                        </div>
+                                        <div class="obciones_portafolio">
+                                            <h3>Software de Gestion de Reportes</h3>
+                                            <div class="btn_resp">
+                                                <button class="btn_portafolio removeClassButton">ver mas</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                   
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <!--Protectos realisados - portafilio end-->
+                    </div>
+                </div>
+            </section>
+            <!--=================== Portafolio content end =======================-->
+            <!--=================== Contacto content start =======================-->
+            <section class="contacto section" id="Contacto">
+                <div class="container">
+                    <div class="filas">
+                        <div class="section-title padd-15">
+                            <h2>Mi Contacto</h2>
+                        </div>
+                    </div>
+                    <h3 class="Titulo_contacto padd-15">Tienes alguna pregunta?</h3>
+                    <h4 class="sub_titulo_contacto padd-15">ESTOY A SU SERVICIO</h4>
+                    <div class="filas">
+                        <!--contacto item-->
+                        <div class="contacto_info_item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <p>llámanos al</p>
+                            <a href="tel:+18099623698"><p>+1 (809) 962-3698</p></a>
+                        </div>
+                        <div class="contacto_info_item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <p>Email </p>
+                            <a href="mailto:ariscortico09@gmail.com"><p>ariscortico09@gmail.com</p></a>
+                        </div>
+                        <div class="contacto_info_item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <p>Website</p>
+                            <p>No disponible</p>
+                        </div>
+                        <!--contacto item fin-->
+                    </div>
+                    <h3 class="Titulo_contacto padd-15">Envíame un correo electrónico</h3>
+                    <!--formulario de contacto-->
+                    <form action="#">
+                        <div class="filas">
+                            <div class="contacto_form padd-15">
+                                <div class="filas">
+                                    <div class="formulario_item col-6 padd-15">
+                                        <div class="grupo_formulario">
+                                            <input type="text" class="formulario_control" placeholder="Nombre" id="name"
+                                                autocomplete="off" required>
+                                            <div class="mensaje_error padd-15">El nombre no puede estar en blanco</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="formulario_item col-6 padd-15">
+                                        <div class="grupo_formulario">
+                                            <input type="email" class="formulario_control" placeholder="Email"
+                                                id="email" autocomplete="off" required>
+                                            <div class="mensaje_error padd-15">El Email no puede estar en blanco</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filas">
+                                    <div class="formulario_item col-12 padd-15">
+                                        <div class="grupo_formulario">
+                                            <input type="text" class="formulario_control" placeholder="Subject"
+                                                id="Subject" autocomplete="off" required>
+                                            <div class="mensaje_error padd-15">No puede estar en blanco</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filas">
+                                    <div class="formulario_item col-12 padd-15">
+                                        <div class="grupo_formulario">
+                                            <textarea name="" class="formulario_control" id="message"
+                                                placeholder="Mensaje" required></textarea>
+                                            <div class="mensaje_error padd-15">El Mensaje no puede estar en blanco</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filas">
+                                    <div class="formulario_item col-12 padd-15">
+                                        <button id="submit" type="submit" class="btn">Enviar Mensaje</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!--formulario de contacto fin-->
+                </div>
+            </section>
+            <!--=================== Contacto content end =======================-->
+        </div>
+        <!--=================== main content fin =======================-->
+    </div>
+    <!--=================== Fin del Contenedor main =======================-->
+    <!--=================== inicio del cambio de estilo =======================-->
+    <div class="style_cambio">
+        <div class="style_cambio_alternador s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="dia-noche s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Temas</h4>
+        <div class="colores">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+
+
+
+
+
+        </div>
+    </div>
+    <!--=================== fin del cambio de estilo =======================-->
+
+
+    <!--===================funciones js=======================-->
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/cambio.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--===================fin_Finciones js====================-->
+</body>
+
+</html>

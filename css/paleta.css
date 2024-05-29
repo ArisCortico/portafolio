@@ -1,0 +1,83 @@
+.style_cambio {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+.style_cambio.open{
+    transform: translateX(-25px);
+}
+.style_cambio .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+}
+
+.style_cambio .s-icon i {
+    line-height: 40px;
+}
+
+.style_cambio .style_cambio_alternador {
+    top: 0;
+}
+
+.style_cambio .dia-noche {
+    top: 55px;
+}
+
+.style_cambio h4 {
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.style_cambio .colores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style_cambio .colores span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.style_cambio .color-1 {
+    background: #ec1839;
+}
+
+.style_cambio .color-2 {
+    background: #fa5b0f;
+}
+
+.style_cambio .color-3 {
+    background: #37b182;
+}
+
+.style_cambio .color-4 {
+    background: #1854b4;
+}
+
+.style_cambio .color-5 {
+    background: #f021b2;
+}
