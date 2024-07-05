@@ -34,6 +34,24 @@ body {
     box-sizing: border-box;
 }
 
+      /* Personaliza el contenedor del scrollbar */
+      ::-webkit-scrollbar {
+        width: 9px;
+        padding: 5px;
+    }
+
+    /* Personaliza la parte interior del scrollbar */
+    ::-webkit-scrollbar-track {
+        background:var(--bg-black-900);
+    }
+
+    /* Personaliza el pulgar del scrollbar */
+    ::-webkit-scrollbar-thumb {
+        background: var(--skin-color);
+    }
+
+
+
 .oculto {
     display: none;
 }
